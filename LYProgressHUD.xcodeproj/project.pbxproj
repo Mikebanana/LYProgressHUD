@@ -14,6 +14,7 @@
 		08E339601F74AB320016558B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E3395E1F74AB320016558B /* LaunchScreen.storyboard */; };
 		08E3396B1F74AB320016558B /* LYProgressHUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E3396A1F74AB320016558B /* LYProgressHUDTests.swift */; };
 		08E339761F74AB320016558B /* LYProgressHUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E339751F74AB320016558B /* LYProgressHUDUITests.swift */; };
+		08E339841F74AC100016558B /* LYProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E339831F74AC100016558B /* LYProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		08E339711F74AB320016558B /* LYProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E339751F74AB320016558B /* LYProgressHUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYProgressHUDUITests.swift; sourceTree = "<group>"; };
 		08E339771F74AB320016558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E339831F74AC100016558B /* LYProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				08E339551F74AB320016558B /* AppDelegate.swift */,
 				08E339571F74AB320016558B /* ViewController.swift */,
+				08E339831F74AC100016558B /* LYProgressHUD.swift */,
 				08E339591F74AB320016558B /* Main.storyboard */,
 				08E3395C1F74AB320016558B /* Assets.xcassets */,
 				08E3395E1F74AB320016558B /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				08E339581F74AB320016558B /* ViewController.swift in Sources */,
 				08E339561F74AB320016558B /* AppDelegate.swift in Sources */,
+				08E339841F74AC100016558B /* LYProgressHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
